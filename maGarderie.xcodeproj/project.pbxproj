@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B49C85D1F76C91900C6A62B /* front.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B49C85C1F76C91700C6A62B /* front.png */; };
 		A84222181F74A50F00EA6541 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84222171F74A50F00EA6541 /* AppDelegate.swift */; };
 		A842221A1F74A50F00EA6541 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84222191F74A50F00EA6541 /* ViewController.swift */; };
 		A842221D1F74A50F00EA6541 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A842221B1F74A50F00EA6541 /* Main.storyboard */; };
 		A842221F1F74A50F00EA6541 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A842221E1F74A50F00EA6541 /* Assets.xcassets */; };
 		A84222221F74A50F00EA6541 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A84222201F74A50F00EA6541 /* LaunchScreen.storyboard */; };
+		A84222341F74A7C900EA6541 /* girafe.png in Resources */ = {isa = PBXBuildFile; fileRef = A842222A1F74A7C800EA6541 /* girafe.png */; };
+		A84222351F74A7C900EA6541 /* baleine.png in Resources */ = {isa = PBXBuildFile; fileRef = A842222B1F74A7C800EA6541 /* baleine.png */; };
+		A84222361F74A7C900EA6541 /* abeille.png in Resources */ = {isa = PBXBuildFile; fileRef = A842222C1F74A7C800EA6541 /* abeille.png */; };
+		A84222371F74A7C900EA6541 /* tortue.png in Resources */ = {isa = PBXBuildFile; fileRef = A842222D1F74A7C800EA6541 /* tortue.png */; };
+		A84222381F74A7C900EA6541 /* elephant.png in Resources */ = {isa = PBXBuildFile; fileRef = A842222E1F74A7C800EA6541 /* elephant.png */; };
+		A84222391F74A7C900EA6541 /* poulpe.png in Resources */ = {isa = PBXBuildFile; fileRef = A842222F1F74A7C900EA6541 /* poulpe.png */; };
+		A842223A1F74A7C900EA6541 /* grenouille.png in Resources */ = {isa = PBXBuildFile; fileRef = A84222301F74A7C900EA6541 /* grenouille.png */; };
+		A842223B1F74A7C900EA6541 /* vache.png in Resources */ = {isa = PBXBuildFile; fileRef = A84222311F74A7C900EA6541 /* vache.png */; };
+		A842223C1F74A7C900EA6541 /* cochon.png in Resources */ = {isa = PBXBuildFile; fileRef = A84222321F74A7C900EA6541 /* cochon.png */; };
+		A842223D1F74A7C900EA6541 /* coccinelle.png in Resources */ = {isa = PBXBuildFile; fileRef = A84222331F74A7C900EA6541 /* coccinelle.png */; };
+		A84222411F74BC9300EA6541 /* reset.png in Resources */ = {isa = PBXBuildFile; fileRef = A84222401F74BC9300EA6541 /* reset.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B49C85C1F76C91700C6A62B /* front.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = front.png; sourceTree = "<group>"; };
 		A84222141F74A50F00EA6541 /* maGarderie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = maGarderie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A84222171F74A50F00EA6541 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A84222191F74A50F00EA6541 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +35,17 @@
 		A842221E1F74A50F00EA6541 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A84222211F74A50F00EA6541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A84222231F74A50F00EA6541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A842222A1F74A7C800EA6541 /* girafe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = girafe.png; sourceTree = "<group>"; };
+		A842222B1F74A7C800EA6541 /* baleine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baleine.png; sourceTree = "<group>"; };
+		A842222C1F74A7C800EA6541 /* abeille.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abeille.png; sourceTree = "<group>"; };
+		A842222D1F74A7C800EA6541 /* tortue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tortue.png; sourceTree = "<group>"; };
+		A842222E1F74A7C800EA6541 /* elephant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = elephant.png; sourceTree = "<group>"; };
+		A842222F1F74A7C900EA6541 /* poulpe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poulpe.png; sourceTree = "<group>"; };
+		A84222301F74A7C900EA6541 /* grenouille.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grenouille.png; sourceTree = "<group>"; };
+		A84222311F74A7C900EA6541 /* vache.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vache.png; sourceTree = "<group>"; };
+		A84222321F74A7C900EA6541 /* cochon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cochon.png; sourceTree = "<group>"; };
+		A84222331F74A7C900EA6541 /* coccinelle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coccinelle.png; sourceTree = "<group>"; };
+		A84222401F74BC9300EA6541 /* reset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reset.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,7 @@
 		A84222161F74A50F00EA6541 /* maGarderie */ = {
 			isa = PBXGroup;
 			children = (
+				A84222291F74A78F00EA6541 /* images */,
 				A84222171F74A50F00EA6541 /* AppDelegate.swift */,
 				A84222191F74A50F00EA6541 /* ViewController.swift */,
 				A842221B1F74A50F00EA6541 /* Main.storyboard */,
@@ -62,6 +87,25 @@
 				A84222231F74A50F00EA6541 /* Info.plist */,
 			);
 			path = maGarderie;
+			sourceTree = "<group>";
+		};
+		A84222291F74A78F00EA6541 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				9B49C85C1F76C91700C6A62B /* front.png */,
+				A84222401F74BC9300EA6541 /* reset.png */,
+				A842222C1F74A7C800EA6541 /* abeille.png */,
+				A842222B1F74A7C800EA6541 /* baleine.png */,
+				A84222331F74A7C900EA6541 /* coccinelle.png */,
+				A84222321F74A7C900EA6541 /* cochon.png */,
+				A842222E1F74A7C800EA6541 /* elephant.png */,
+				A842222A1F74A7C800EA6541 /* girafe.png */,
+				A84222301F74A7C900EA6541 /* grenouille.png */,
+				A842222F1F74A7C900EA6541 /* poulpe.png */,
+				A842222D1F74A7C800EA6541 /* tortue.png */,
+				A84222311F74A7C900EA6541 /* vache.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +167,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A84222381F74A7C900EA6541 /* elephant.png in Resources */,
+				A84222411F74BC9300EA6541 /* reset.png in Resources */,
+				A84222361F74A7C900EA6541 /* abeille.png in Resources */,
 				A84222221F74A50F00EA6541 /* LaunchScreen.storyboard in Resources */,
+				A842223A1F74A7C900EA6541 /* grenouille.png in Resources */,
 				A842221F1F74A50F00EA6541 /* Assets.xcassets in Resources */,
+				A84222371F74A7C900EA6541 /* tortue.png in Resources */,
+				A84222351F74A7C900EA6541 /* baleine.png in Resources */,
+				9B49C85D1F76C91900C6A62B /* front.png in Resources */,
 				A842221D1F74A50F00EA6541 /* Main.storyboard in Resources */,
+				A84222341F74A7C900EA6541 /* girafe.png in Resources */,
+				A84222391F74A7C900EA6541 /* poulpe.png in Resources */,
+				A842223B1F74A7C900EA6541 /* vache.png in Resources */,
+				A842223D1F74A7C900EA6541 /* coccinelle.png in Resources */,
+				A842223C1F74A7C900EA6541 /* cochon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +332,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = maGarderie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = evy.maGarderie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -290,6 +347,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = maGarderie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = evy.maGarderie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
