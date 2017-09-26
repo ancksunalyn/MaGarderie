@@ -5,7 +5,7 @@
 
 import UIKit
 
-class ViewController: UIViewController
+class Niveau1Controller: UIViewController
 {
 
     @IBOutlet weak var back_1: UIView!
