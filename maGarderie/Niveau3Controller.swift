@@ -92,6 +92,8 @@ class Niveau3Controller: UIViewController
     @IBOutlet weak var card_20: UIView!
     
     @IBOutlet weak var reset: UIView!
+    @IBOutlet weak var resetImage: UIImageView!
+    @IBOutlet weak var logo: UIImageView!
     
     
     var arrayOfImageViews: [UIImageView]!
@@ -342,22 +344,48 @@ class Niveau3Controller: UIViewController
         arrayOfHidingFronts = []
     }
     //------------------------------------
-    @IBAction func reset(_ sender: UIButton)
-    {
-        for card in cards
-        {
-            card.isHidden = false
+    func returnToFirst() {
+        if counter == 10 {
+            Timer.scheduledTimer(timeInterval: 2,
+                                 target: self,
+                                 selector: (#selector(animation)),
+                                 userInfo: nil,
+                                 repeats: true)
+            
+            Timer.scheduledTimer(timeInterval: 9,
+                                 target: self,
+                                 selector: (#selector(go)),
+                                 userInfo: nil,
+                                 repeats: false)
         }
-        arrayOfAnimalNames = ["abeille.png", "abeille.png", "baleine.png", "baleine.png", "coccinelle.png", "coccinelle.png", "cochon.png", "cochon.png", "elephant.png", "elephant.png", "girafe.png", "girafe.png", "grenouille.png", "grenouille.png", "poulpe.png", "poulpe.png", "tortue.png", "tortue.png", "vache.png", "vache.png"]
-        arrayOfRandomAnimalNames = []
-        randomAnimals ()
-        setImagesToCards()
-        reset.isHidden = true
     }
-    
-    
-    
-    
+    //------------------------------------
+    @objc func animation() {
+        UIView.animate(withDuration: 0.7, animations: {
+            self.doAnimation(to: 434)
+        }, completion: {
+            (value: Bool) in
+            
+            UIView.animate(withDuration: 0.7, animations: {
+                self.doAnimation(to: 284)
+            })
+            
+        })
+    }
+    //------------------------------------
+    func doAnimation(to: CGFloat) {
+        reset.isHidden = false
+        reset.frame.size.width = to
+        reset.frame.size.height = to
+        //fondecran.isHidden = true
+        logo.isHidden = true
+        resetImage.frame.size.width = to
+        resetImage.frame.size.height = to
+    }
+    //------------------------------------
+    @objc func go () {
+        performSegue(withIdentifier: "retourDuNiveau", sender: nil)
+    }
     
 }
 
