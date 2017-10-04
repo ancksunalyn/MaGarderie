@@ -60,7 +60,6 @@
 		A842223B1F74A7C900EA6541 /* vache.png in Resources */ = {isa = PBXBuildFile; fileRef = A84222311F74A7C900EA6541 /* vache.png */; };
 		A842223C1F74A7C900EA6541 /* cochon.png in Resources */ = {isa = PBXBuildFile; fileRef = A84222321F74A7C900EA6541 /* cochon.png */; };
 		A842223D1F74A7C900EA6541 /* coccinelle.png in Resources */ = {isa = PBXBuildFile; fileRef = A84222331F74A7C900EA6541 /* coccinelle.png */; };
-		A84222411F74BC9300EA6541 /* reset.png in Resources */ = {isa = PBXBuildFile; fileRef = A84222401F74BC9300EA6541 /* reset.png */; };
 		A86FF51E1F805F4200110F87 /* anemone.png in Resources */ = {isa = PBXBuildFile; fileRef = A86FF5081F805F4000110F87 /* anemone.png */; };
 		A86FF51F1F805F4200110F87 /* foque.png in Resources */ = {isa = PBXBuildFile; fileRef = A86FF5091F805F4000110F87 /* foque.png */; };
 		A86FF5201F805F4200110F87 /* oiseau.png in Resources */ = {isa = PBXBuildFile; fileRef = A86FF50A1F805F4000110F87 /* oiseau.png */; };
@@ -142,7 +141,6 @@
 		A84222311F74A7C900EA6541 /* vache.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vache.png; sourceTree = "<group>"; };
 		A84222321F74A7C900EA6541 /* cochon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cochon.png; sourceTree = "<group>"; };
 		A84222331F74A7C900EA6541 /* coccinelle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coccinelle.png; sourceTree = "<group>"; };
-		A84222401F74BC9300EA6541 /* reset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reset.png; sourceTree = "<group>"; };
 		A86FF5081F805F4000110F87 /* anemone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anemone.png; sourceTree = "<group>"; };
 		A86FF5091F805F4000110F87 /* foque.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foque.png; sourceTree = "<group>"; };
 		A86FF50A1F805F4000110F87 /* oiseau.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oiseau.png; sourceTree = "<group>"; };
@@ -281,7 +279,6 @@
 				9B7BF4E51F7EBF990053371B /* niveau_ciel.png */,
 				9B180B3C1F7D5B7200C7E37A /* logo.png */,
 				9B49C85C1F76C91700C6A62B /* front.png */,
-				A84222401F74BC9300EA6541 /* reset.png */,
 				A842222C1F74A7C800EA6541 /* abeille.png */,
 				A842222B1F74A7C800EA6541 /* baleine.png */,
 				A84222331F74A7C900EA6541 /* coccinelle.png */,
@@ -358,7 +355,6 @@
 				A86FF5261F805F4200110F87 /* flamant rose.png in Resources */,
 				9B180B331F7D566A00C7E37A /* Icon-57.png in Resources */,
 				A84222381F74A7C900EA6541 /* elephant.png in Resources */,
-				A84222411F74BC9300EA6541 /* reset.png in Resources */,
 				A84222361F74A7C900EA6541 /* abeille.png in Resources */,
 				A86FF5301F805F4200110F87 /* toucan.png in Resources */,
 				9B180B281F7D566A00C7E37A /* Icon-29.png in Resources */,
