@@ -1,13 +1,20 @@
 //  maGarderie
-//  Created by Evelyn Andrade on 17-09-21.
+//  Crée par Evelyn Andrade - 21/09/2017.
+//  Dernière modification - 04/10/2017.
 //  Copyright © 2017 Evelyn Andrade. All rights reserved.
-//
+
 
 import UIKit
 
-class Niveau1Controller: UIViewController
-{
+//=========================================
+//VIEW CONTROLLER DU NIVEAU 1
+//=========================================
 
+class Niveau1Controller: UIViewController {
+
+    //=========================================
+    //CONNECTION D'OBJECTS
+    //=========================================
     @IBOutlet weak var back_1: UIView!
     @IBOutlet weak var front_1: UIView!
     @IBOutlet weak var back_2: UIView!
@@ -96,7 +103,9 @@ class Niveau1Controller: UIViewController
     @IBOutlet weak var fondecran: UIImageView!
     @IBOutlet weak var logo: UIImageView!
     
-    
+    //=========================================
+    //DECLARATION DE VARIABLES
+    //=========================================
     var arrayOfImageViews: [UIImageView]!
     var arrayOfAnimalNames = [String]()
     var arrayOfRandomAnimalNames = [String]()
@@ -110,16 +119,22 @@ class Niveau1Controller: UIViewController
     
     var counter = 0
     
-    //------------------------------------
+    //==============================================================
+    //Méthode qui dit quoi doit se passer lorsque la view est prête
+    //==============================================================
     override func viewDidLoad() {
         super.viewDidLoad()
         cards = [card_01, card_02, card_03, card_04, card_05, card_06, card_07, card_08, card_09, card_10, card_11, card_12, card_13, card_14, card_15, card_16, card_17, card_18, card_19, card_20]
         arrayOfImageViews = [imgView1, imgView2, imgView3, imgView4, imgView5, imgView6, imgView7, imgView8, imgView9, imgView10, imgView11, imgView12, imgView13, imgView14, imgView15, imgView16, imgView17, imgView18, imgView19, imgView20]
-        arrayOfAnimalNames = ["abeille.png", "abeille.png", "baleine.png", "baleine.png", "coccinelle.png", "coccinelle.png", "cochon.png", "cochon.png", "elephant.png", "elephant.png", "girafe.png", "girafe.png", "grenouille.png", "grenouille.png", "poulpe.png", "poulpe.png", "tortue.png", "tortue.png", "vache.png", "vache.png"]
+        arrayOfAnimalNames = ["abeille.png", "abeille.png", "coccinelle.png", "coccinelle.png", "dinde.png", "dinde.png", "flamant rose.png", "flamant rose.png", "hibou.png", "hibou.png", "oiseau.png", "oiseau.png", "Papillon.png", "Papillon.png", "penguin.png", "penguin.png", "perroquet.png", "perroquet.png", "toucan.png", "toucan.png"]
         randomAnimals ()
         setImagesToCards()
     }
-    //------------------------------------
+    
+    //=================================================================
+    //Méthode qui montre les cartes après qu'elles sont cliquées dessus
+    //et que les cachent si elles ne sont pas pareilles.
+    //=================================================================
     @IBAction func showCard(_ sender: UIButton) {
         if arrayOfHidingFronts.count == 2 {
             return
@@ -232,7 +247,10 @@ class Niveau1Controller: UIViewController
         verification()
         returnToFirst()
     }
-    //------------------------------------
+    
+    //=================================================================
+    //Mèthode qui fait l'animation lorsque la carte est cliquée dessus
+    //=================================================================
     func flipCard(from: UIView, to: UIView) {
         let transitionOptions: UIViewAnimationOptions =
             [.transitionFlipFromRight, .showHideTransitionViews]
@@ -245,7 +263,10 @@ class Niveau1Controller: UIViewController
                             to.isHidden = false
         })
     }
-    //------------------------------------
+    
+    //=================================================================
+    //Mèthode qui place les images sur les cartes
+    //=================================================================
     func setImagesToCards() {
         var number = 0
         for imgView in arrayOfImageViews {
@@ -253,7 +274,10 @@ class Niveau1Controller: UIViewController
             number = number + 1
         }
     }
-    //------------------------------------
+    
+    //=================================================================
+    //Mèthode qui organise des cartes de façon randomique
+    //=================================================================
     func randomAnimals() {
         let numberOfAnimals = arrayOfAnimalNames.count
         for _ in 1...numberOfAnimals {
@@ -262,7 +286,11 @@ class Niveau1Controller: UIViewController
             arrayOfAnimalNames.remove(at: randomNumber)
         }
     }
-    //------------------------------------
+    
+    //=================================================================
+    //Mèthode qui contrôle le temps que deux cartes qui ne sont pas
+    //pareilles soient encore cachées
+    //=================================================================
     func resetCards() {
         if arrayOfHidingFronts.count == 2 {
             Timer.scheduledTimer(timeInterval: 2,
@@ -272,7 +300,11 @@ class Niveau1Controller: UIViewController
                                  repeats: false)
         }
     }
-    //------------------------------------
+    
+    //=================================================================
+    //Méthode qui verifie si les cartes sont un pair. Si c'est le cas,
+    //la méthode contrôle le temps pour que les cartes disparaissent
+    //=================================================================
     func verification() {
         if arrayOfChosenCards.count == 2 {
             if arrayOfChosenCards[0] == arrayOfChosenCards[1] {
@@ -289,63 +321,74 @@ class Niveau1Controller: UIViewController
         }
         resetCards()
     }
-    //------------------------------------
+    
+    //=================================================================
+    //Méthode qui cache les cartes que sont pareilles.
+    //=================================================================
     @objc func hideCards() {
         arrayOfCards[0].isHidden = true
         arrayOfCards[1].isHidden = true
         arrayOfCards = []
     }
-    //------------------------------------
+    
+    //=================================================================
+    //Méthode qui retourne les cartes que ne sont pas pareilles.
+    //=================================================================
     @objc func reFlip() {
         for index in 0..<arrayOfShowingBacks.count {
             flipCard(from: arrayOfShowingBacks[index], to: arrayOfHidingFronts[index])
         }
-        if counter == 10 {
-            reset.isHidden = false
-        }
         arrayOfShowingBacks = []
         arrayOfHidingFronts = []
     }
-    //------------------------------------
+    
+    //=================================================================
+    //Méthode qui est éxécutée lorsque le jeu est fini et doit retourné
+    //à l'écran initialle
+    //=================================================================
     func returnToFirst() {
         if counter == 10 {
                 Timer.scheduledTimer(timeInterval: 2,
                                  target: self,
-                                 selector: (#selector(animation)),
+                                 selector: (#selector(animationOut)),
                                  userInfo: nil,
                                  repeats: true)
         
-                Timer.scheduledTimer(timeInterval: 9,
+                Timer.scheduledTimer(timeInterval: 7,
                                  target: self,
                                  selector: (#selector(go)),
                                  userInfo: nil,
                                  repeats: false)
         }
     }
-    //------------------------------------
-    @objc func animation() {
-        UIView.animate(withDuration: 0.7, animations: {
-            self.doAnimation(to: 434)
-            }, completion: {
-                (value: Bool) in
-                
-                UIView.animate(withDuration: 0.7, animations: {
-                    self.doAnimation(to: 284)
-            })
-                
-        })
-    }
-    //------------------------------------
-    func doAnimation(to: CGFloat) {
-        reset.isHidden = false
-        reset.frame.size.width = to
-        reset.frame.size.height = to
-        fondecran.isHidden = true
+    
+    //=================================================================
+    //Méthode qui contrôle la premier partie de l'animation finalle
+    //=================================================================
+    @objc func animationOut () {
         logo.isHidden = true
-        resetImage.frame.size.width = to
-        resetImage.frame.size.height = to
+        reset.isHidden = false
+        UIView.animate(withDuration: 1, delay: 0, options: [.curveEaseInOut, .allowUserInteraction], animations:
+            {self.reset.transform = CGAffineTransform(scaleX:1, y:1);
+                self.resetImage.transform = CGAffineTransform(scaleX:1, y:1)
+            },
+                completion: {(true) in self.animationIn()})
     }
-    //------------------------------------
+    
+    //=================================================================
+    //Méthode qui contrôle la deuxième partie de l'animation finalle
+    //=================================================================
+    @objc func animationIn () {
+            UIView.animate(withDuration: 1, delay: 0, options: [.curveEaseInOut, .allowUserInteraction], animations:
+                {self.reset.transform = CGAffineTransform(scaleX:0.5, y:0.5);
+                    self.resetImage.transform = CGAffineTransform(scaleX:0.5, y:0.5)
+                },
+                    completion: {(true) in self.animationOut()})
+        }
+    
+    //=================================================================
+    //Méthode qui retourne à la première écran
+    //=================================================================
     @objc func go () {
         performSegue(withIdentifier: "retourDuNiveau", sender: nil)
     }

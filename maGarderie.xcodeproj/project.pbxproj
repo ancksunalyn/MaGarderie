@@ -39,6 +39,8 @@
 		9B180B3B1F7D57E800C7E37A /* Icon-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B180B3A1F7D57E800C7E37A /* Icon-1024.png */; };
 		9B180B3D1F7D5B7300C7E37A /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B180B3C1F7D5B7200C7E37A /* logo.png */; };
 		9B49C85D1F76C91900C6A62B /* front.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B49C85C1F76C91700C6A62B /* front.png */; };
+		9B4A7AEC1F82DAAB00F8034D /* fond_ecran_jeu.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B4A7AEA1F82DAA800F8034D /* fond_ecran_jeu.png */; };
+		9B4A7AED1F82DAAB00F8034D /* fond_ecran_flou.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B4A7AEB1F82DAA900F8034D /* fond_ecran_flou.png */; };
 		9B7BF4E61F7EBF990053371B /* niveau_ciel.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B7BF4E51F7EBF990053371B /* niveau_ciel.png */; };
 		9B7BF4E81F7EC3900053371B /* niveau_terre.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B7BF4E71F7EC38F0053371B /* niveau_terre.png */; };
 		9B7BF4EA1F7EC4450053371B /* niveau_ocean.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B7BF4E91F7EC4440053371B /* niveau_ocean.png */; };
@@ -59,6 +61,26 @@
 		A842223C1F74A7C900EA6541 /* cochon.png in Resources */ = {isa = PBXBuildFile; fileRef = A84222321F74A7C900EA6541 /* cochon.png */; };
 		A842223D1F74A7C900EA6541 /* coccinelle.png in Resources */ = {isa = PBXBuildFile; fileRef = A84222331F74A7C900EA6541 /* coccinelle.png */; };
 		A84222411F74BC9300EA6541 /* reset.png in Resources */ = {isa = PBXBuildFile; fileRef = A84222401F74BC9300EA6541 /* reset.png */; };
+		A86FF51E1F805F4200110F87 /* anemone.png in Resources */ = {isa = PBXBuildFile; fileRef = A86FF5081F805F4000110F87 /* anemone.png */; };
+		A86FF51F1F805F4200110F87 /* foque.png in Resources */ = {isa = PBXBuildFile; fileRef = A86FF5091F805F4000110F87 /* foque.png */; };
+		A86FF5201F805F4200110F87 /* oiseau.png in Resources */ = {isa = PBXBuildFile; fileRef = A86FF50A1F805F4000110F87 /* oiseau.png */; };
+		A86FF5211F805F4200110F87 /* escargot.png in Resources */ = {isa = PBXBuildFile; fileRef = A86FF50B1F805F4000110F87 /* escargot.png */; };
+		A86FF5221F805F4200110F87 /* hibou.png in Resources */ = {isa = PBXBuildFile; fileRef = A86FF50C1F805F4000110F87 /* hibou.png */; };
+		A86FF5231F805F4200110F87 /* etoile.png in Resources */ = {isa = PBXBuildFile; fileRef = A86FF50D1F805F4000110F87 /* etoile.png */; };
+		A86FF5251F805F4200110F87 /* cheval.png in Resources */ = {isa = PBXBuildFile; fileRef = A86FF50F1F805F4000110F87 /* cheval.png */; };
+		A86FF5261F805F4200110F87 /* flamant rose.png in Resources */ = {isa = PBXBuildFile; fileRef = A86FF5101F805F4100110F87 /* flamant rose.png */; };
+		A86FF5271F805F4200110F87 /* dinde.png in Resources */ = {isa = PBXBuildFile; fileRef = A86FF5111F805F4100110F87 /* dinde.png */; };
+		A86FF5281F805F4200110F87 /* chenille.png in Resources */ = {isa = PBXBuildFile; fileRef = A86FF5121F805F4100110F87 /* chenille.png */; };
+		A86FF5291F805F4200110F87 /* fourmi.png in Resources */ = {isa = PBXBuildFile; fileRef = A86FF5131F805F4100110F87 /* fourmi.png */; };
+		A86FF52A1F805F4200110F87 /* globe.png in Resources */ = {isa = PBXBuildFile; fileRef = A86FF5141F805F4100110F87 /* globe.png */; };
+		A86FF52B1F805F4200110F87 /* perroquet.png in Resources */ = {isa = PBXBuildFile; fileRef = A86FF5151F805F4100110F87 /* perroquet.png */; };
+		A86FF52C1F805F4200110F87 /* ecureuil.png in Resources */ = {isa = PBXBuildFile; fileRef = A86FF5161F805F4100110F87 /* ecureuil.png */; };
+		A86FF52D1F805F4200110F87 /* crab.png in Resources */ = {isa = PBXBuildFile; fileRef = A86FF5171F805F4100110F87 /* crab.png */; };
+		A86FF52E1F805F4200110F87 /* Papillon.png in Resources */ = {isa = PBXBuildFile; fileRef = A86FF5181F805F4100110F87 /* Papillon.png */; };
+		A86FF52F1F805F4200110F87 /* poisson.png in Resources */ = {isa = PBXBuildFile; fileRef = A86FF5191F805F4100110F87 /* poisson.png */; };
+		A86FF5301F805F4200110F87 /* toucan.png in Resources */ = {isa = PBXBuildFile; fileRef = A86FF51A1F805F4200110F87 /* toucan.png */; };
+		A86FF5311F805F4200110F87 /* meduse.png in Resources */ = {isa = PBXBuildFile; fileRef = A86FF51B1F805F4200110F87 /* meduse.png */; };
+		A86FF5331F805F4200110F87 /* penguin.png in Resources */ = {isa = PBXBuildFile; fileRef = A86FF51D1F805F4200110F87 /* penguin.png */; };
 		A8A317D41F79F76200A66472 /* Niveau2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A317D31F79F76200A66472 /* Niveau2Controller.swift */; };
 		A8A317D61F79F89800A66472 /* Niveau3Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A317D51F79F89800A66472 /* Niveau3Controller.swift */; };
 		A8A317D81F7A086500A66472 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A317D71F7A086500A66472 /* ViewController.swift */; };
@@ -97,6 +119,8 @@
 		9B180B3A1F7D57E800C7E37A /* Icon-1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-1024.png"; sourceTree = "<group>"; };
 		9B180B3C1F7D5B7200C7E37A /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		9B49C85C1F76C91700C6A62B /* front.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = front.png; sourceTree = "<group>"; };
+		9B4A7AEA1F82DAA800F8034D /* fond_ecran_jeu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fond_ecran_jeu.png; sourceTree = "<group>"; };
+		9B4A7AEB1F82DAA900F8034D /* fond_ecran_flou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fond_ecran_flou.png; sourceTree = "<group>"; };
 		9B7BF4E51F7EBF990053371B /* niveau_ciel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = niveau_ciel.png; sourceTree = "<group>"; };
 		9B7BF4E71F7EC38F0053371B /* niveau_terre.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = niveau_terre.png; sourceTree = "<group>"; };
 		9B7BF4E91F7EC4440053371B /* niveau_ocean.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = niveau_ocean.png; sourceTree = "<group>"; };
@@ -119,6 +143,26 @@
 		A84222321F74A7C900EA6541 /* cochon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cochon.png; sourceTree = "<group>"; };
 		A84222331F74A7C900EA6541 /* coccinelle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coccinelle.png; sourceTree = "<group>"; };
 		A84222401F74BC9300EA6541 /* reset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reset.png; sourceTree = "<group>"; };
+		A86FF5081F805F4000110F87 /* anemone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anemone.png; sourceTree = "<group>"; };
+		A86FF5091F805F4000110F87 /* foque.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foque.png; sourceTree = "<group>"; };
+		A86FF50A1F805F4000110F87 /* oiseau.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oiseau.png; sourceTree = "<group>"; };
+		A86FF50B1F805F4000110F87 /* escargot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = escargot.png; sourceTree = "<group>"; };
+		A86FF50C1F805F4000110F87 /* hibou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hibou.png; sourceTree = "<group>"; };
+		A86FF50D1F805F4000110F87 /* etoile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = etoile.png; sourceTree = "<group>"; };
+		A86FF50F1F805F4000110F87 /* cheval.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cheval.png; sourceTree = "<group>"; };
+		A86FF5101F805F4100110F87 /* flamant rose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flamant rose.png"; sourceTree = "<group>"; };
+		A86FF5111F805F4100110F87 /* dinde.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dinde.png; sourceTree = "<group>"; };
+		A86FF5121F805F4100110F87 /* chenille.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chenille.png; sourceTree = "<group>"; };
+		A86FF5131F805F4100110F87 /* fourmi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fourmi.png; sourceTree = "<group>"; };
+		A86FF5141F805F4100110F87 /* globe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = globe.png; sourceTree = "<group>"; };
+		A86FF5151F805F4100110F87 /* perroquet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = perroquet.png; sourceTree = "<group>"; };
+		A86FF5161F805F4100110F87 /* ecureuil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ecureuil.png; sourceTree = "<group>"; };
+		A86FF5171F805F4100110F87 /* crab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crab.png; sourceTree = "<group>"; };
+		A86FF5181F805F4100110F87 /* Papillon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Papillon.png; sourceTree = "<group>"; };
+		A86FF5191F805F4100110F87 /* poisson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poisson.png; sourceTree = "<group>"; };
+		A86FF51A1F805F4200110F87 /* toucan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toucan.png; sourceTree = "<group>"; };
+		A86FF51B1F805F4200110F87 /* meduse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meduse.png; sourceTree = "<group>"; };
+		A86FF51D1F805F4200110F87 /* penguin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = penguin.png; sourceTree = "<group>"; };
 		A8A317D31F79F76200A66472 /* Niveau2Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Niveau2Controller.swift; sourceTree = "<group>"; };
 		A8A317D51F79F89800A66472 /* Niveau3Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Niveau3Controller.swift; sourceTree = "<group>"; };
 		A8A317D71F7A086500A66472 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -209,6 +253,28 @@
 		A84222291F74A78F00EA6541 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				9B4A7AEB1F82DAA900F8034D /* fond_ecran_flou.png */,
+				9B4A7AEA1F82DAA800F8034D /* fond_ecran_jeu.png */,
+				A86FF5081F805F4000110F87 /* anemone.png */,
+				A86FF5121F805F4100110F87 /* chenille.png */,
+				A86FF50F1F805F4000110F87 /* cheval.png */,
+				A86FF5171F805F4100110F87 /* crab.png */,
+				A86FF5111F805F4100110F87 /* dinde.png */,
+				A86FF5161F805F4100110F87 /* ecureuil.png */,
+				A86FF50B1F805F4000110F87 /* escargot.png */,
+				A86FF50D1F805F4000110F87 /* etoile.png */,
+				A86FF5101F805F4100110F87 /* flamant rose.png */,
+				A86FF5091F805F4000110F87 /* foque.png */,
+				A86FF5131F805F4100110F87 /* fourmi.png */,
+				A86FF5141F805F4100110F87 /* globe.png */,
+				A86FF50C1F805F4000110F87 /* hibou.png */,
+				A86FF51B1F805F4200110F87 /* meduse.png */,
+				A86FF50A1F805F4000110F87 /* oiseau.png */,
+				A86FF5181F805F4100110F87 /* Papillon.png */,
+				A86FF51D1F805F4200110F87 /* penguin.png */,
+				A86FF5151F805F4100110F87 /* perroquet.png */,
+				A86FF5191F805F4100110F87 /* poisson.png */,
+				A86FF51A1F805F4200110F87 /* toucan.png */,
 				9B7BF4EB1F7ED1B40053371B /* fondecran.png */,
 				9B7BF4E91F7EC4440053371B /* niveau_ocean.png */,
 				9B7BF4E71F7EC38F0053371B /* niveau_terre.png */,
@@ -289,52 +355,74 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A86FF5261F805F4200110F87 /* flamant rose.png in Resources */,
 				9B180B331F7D566A00C7E37A /* Icon-57.png in Resources */,
 				A84222381F74A7C900EA6541 /* elephant.png in Resources */,
 				A84222411F74BC9300EA6541 /* reset.png in Resources */,
 				A84222361F74A7C900EA6541 /* abeille.png in Resources */,
+				A86FF5301F805F4200110F87 /* toucan.png in Resources */,
 				9B180B281F7D566A00C7E37A /* Icon-29.png in Resources */,
 				9B180B381F7D566A00C7E37A /* Icon-60.png in Resources */,
 				9B180B1C1F7D566A00C7E37A /* Icon-20.png in Resources */,
+				A86FF5281F805F4200110F87 /* chenille.png in Resources */,
+				9B4A7AED1F82DAAB00F8034D /* fond_ecran_flou.png in Resources */,
 				9B180B3B1F7D57E800C7E37A /* Icon-1024.png in Resources */,
 				9B180B2C1F7D566A00C7E37A /* Icon-88.png in Resources */,
 				9B180B361F7D566A00C7E37A /* Icon-167.png in Resources */,
 				A84222221F74A50F00EA6541 /* LaunchScreen.storyboard in Resources */,
 				A842223A1F74A7C900EA6541 /* grenouille.png in Resources */,
+				9B4A7AEC1F82DAAB00F8034D /* fond_ecran_jeu.png in Resources */,
 				9B7BF4EC1F7ED1B50053371B /* fondecran.png in Resources */,
 				9B7BF4E81F7EC3900053371B /* niveau_terre.png in Resources */,
 				A842221F1F74A50F00EA6541 /* Assets.xcassets in Resources */,
+				A86FF5251F805F4200110F87 /* cheval.png in Resources */,
+				A86FF5231F805F4200110F87 /* etoile.png in Resources */,
 				A84222371F74A7C900EA6541 /* tortue.png in Resources */,
 				9B180B251F7D566A00C7E37A /* Icon-72.png in Resources */,
 				A84222351F74A7C900EA6541 /* baleine.png in Resources */,
+				A86FF5291F805F4200110F87 /* fourmi.png in Resources */,
 				9B180B2A1F7D566A00C7E37A /* Icon-58.png in Resources */,
 				9B180B211F7D566A00C7E37A /* Icon-80.png in Resources */,
+				A86FF52C1F805F4200110F87 /* ecureuil.png in Resources */,
 				9B180B231F7D566A00C7E37A /* Icon-16.png in Resources */,
 				9B180B241F7D566A00C7E37A /* Icon-55.png in Resources */,
+				A86FF52D1F805F4200110F87 /* crab.png in Resources */,
 				9B180B341F7D566A00C7E37A /* Icon-128.png in Resources */,
 				9B49C85D1F76C91900C6A62B /* front.png in Resources */,
 				A842221D1F74A50F00EA6541 /* Main.storyboard in Resources */,
+				A86FF5201F805F4200110F87 /* oiseau.png in Resources */,
 				9B180B321F7D566A00C7E37A /* Icon-196.png in Resources */,
+				A86FF5331F805F4200110F87 /* penguin.png in Resources */,
 				9B180B3D1F7D5B7300C7E37A /* logo.png in Resources */,
 				9B180B371F7D566A00C7E37A /* Icon-172.png in Resources */,
+				A86FF51F1F805F4200110F87 /* foque.png in Resources */,
 				9B180B2D1F7D566A00C7E37A /* Icon-87.png in Resources */,
 				9B180B1E1F7D566A00C7E37A /* Icon-120.png in Resources */,
 				9B7BF4EA1F7EC4450053371B /* niveau_ocean.png in Resources */,
+				A86FF52B1F805F4200110F87 /* perroquet.png in Resources */,
 				9B180B391F7D566A00C7E37A /* Icon-76.png in Resources */,
 				A84222341F74A7C900EA6541 /* girafe.png in Resources */,
 				9B180B2E1F7D566A00C7E37A /* Icon-152.png in Resources */,
+				A86FF5271F805F4200110F87 /* dinde.png in Resources */,
 				A84222391F74A7C900EA6541 /* poulpe.png in Resources */,
 				A842223B1F74A7C900EA6541 /* vache.png in Resources */,
 				A842223D1F74A7C900EA6541 /* coccinelle.png in Resources */,
+				A86FF5211F805F4200110F87 /* escargot.png in Resources */,
 				9B180B2B1F7D566A00C7E37A /* Icon-40.png in Resources */,
 				A842223C1F74A7C900EA6541 /* cochon.png in Resources */,
 				9B7BF4E61F7EBF990053371B /* niveau_ciel.png in Resources */,
 				9B180B1F1F7D566A00C7E37A /* Icon-256.png in Resources */,
 				9B180B311F7D566A00C7E37A /* Icon-144.png in Resources */,
+				A86FF5311F805F4200110F87 /* meduse.png in Resources */,
 				9B180B1D1F7D566A00C7E37A /* Icon-32.png in Resources */,
+				A86FF52E1F805F4200110F87 /* Papillon.png in Resources */,
 				9B180B291F7D566A00C7E37A /* Icon-48.png in Resources */,
 				9B180B261F7D566A00C7E37A /* Icon-512.png in Resources */,
 				9B180B301F7D566A00C7E37A /* Icon-50.png in Resources */,
+				A86FF51E1F805F4200110F87 /* anemone.png in Resources */,
+				A86FF52F1F805F4200110F87 /* poisson.png in Resources */,
+				A86FF52A1F805F4200110F87 /* globe.png in Resources */,
+				A86FF5221F805F4200110F87 /* hibou.png in Resources */,
 				9B180B351F7D566A00C7E37A /* Icon-64.png in Resources */,
 				9B180B271F7D566A00C7E37A /* Icon-100.png in Resources */,
 				9B180B2F1F7D566A00C7E37A /* Icon-180.png in Resources */,
@@ -491,7 +579,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2LMP24Q725;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = maGarderie/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -507,7 +595,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2LMP24Q725;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = maGarderie/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
